@@ -5,7 +5,24 @@ import styled from "styled-components";
 
 
 
-// 3ª Digitação
+const Home = () => {
+  return (
+    <Container>
+      {/* Em React, "Wrapper" é um termo comumente usado para se referir a um componente que envolve (wraps) um ou mais outros componentes. */}
+      {/* Wrapper para o conteúdo de texto */}
+      <ContentWrapper>
+        <title>Bem-Vindo!</title>
+        <Subtitle>Explore nosso site e descubra tudo o que temos a oferecer.</Subtitle>
+        <CallToAction href="#">Conheça Agora</CallToAction>
+      </ContentWrapper>
+
+      {/* Wrapper para a imagem de destaque */}
+      <ImageWrapper>
+      <HeroImage src="https://via.placeholder.com/500x300" alt="Hero Image"></HeroImage>
+      </ImageWrapper>
+    </Container>
+  );
+};
 
 
 
